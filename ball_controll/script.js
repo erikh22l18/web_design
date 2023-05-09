@@ -6,7 +6,8 @@ const reset_controll = document.getElementById('reset')
 const reverse_controll = document.getElementById('reverse')
 
 window.addEventListener('load', () => {
-  ball.style.animation = 'none'
+  ball.style.animationPlayState = 'paused'
+
 })
 
 reverse_controll.addEventListener('click', () => {
@@ -20,8 +21,6 @@ reset_controll.addEventListener('click', () => {
 })
 
 play_controll.addEventListener('click', () => {
-  ball.offsetHeight
-  ball.style.animation = null
   ball.style.animationPlayState = 'running'
 })
 
