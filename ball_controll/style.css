@@ -30,15 +30,6 @@ body {
   animation: move_right 3s linear infinite;
 }
 
-@keyframes move_left {
-  0% {
-    left: 100%;
-  }
-  100% {
-    left: 0;
-  }
-}
-
 @keyframes move_right {
   0% {
     left: 0;
