@@ -19,7 +19,7 @@ body {
 }
 
 #ball {
-  background-color: #eb9b07;
+  background-color: green;
   border-radius: 50%;
   width: 100px;
   height: 100px;
