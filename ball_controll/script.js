@@ -18,6 +18,7 @@ reset_controll.addEventListener('click', () => {
   ball.style.animation = 'none'
   ball.offsetHeight
   ball.style.animation = null
+  ball.style.animationPlayState = 'paused'
 })
 
 play_controll.addEventListener('click', () => {
