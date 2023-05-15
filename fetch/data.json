@@ -1,0 +1,38 @@
+{
+  "product1": {
+    "name": "product1",
+    "price": 100,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/389/081/large/william-borges-esfera-do-dragao.jpg?1461152561",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  "product2": {
+    "name": "product2",
+    "price": 200,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/389/081/large/william-borges-esfera-do-dragao.jpg?1461152561",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  "product3": {
+    "name": "product3",
+    "price": 300,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/389/081/large/william-borges-esfera-do-dragao.jpg?1461152561",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  "product4": {
+    "name": "product4",
+    "price": 400,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/389/081/large/william-borges-esfera-do-dragao.jpg?1461152561",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  "product5": {
+    "name": "product5",
+    "price": 500,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/389/081/large/william-borges-esfera-do-dragao.jpg?1461152561",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  "product6": {
+    "name": "product6",
+    "price": 600,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/389/081/large/william-borges-esfera-do-dragao.jpg?1461152561",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  }
+}
