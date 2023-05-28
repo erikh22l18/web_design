@@ -1,57 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-
-  <title>Web Design Course</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>portfolio</title>
+  <meta name="theme-color" content="rgba(255,255,255,0.5)">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/img/pwa_512x512.png">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "gq6t320i4o");
+  </script>
 </head>
 
-<body>
-  <h1>Web Design Course</h1>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./lesson1/index.html">Lesson 1</a></li>
-        <li><a href="./ball_controll/index.html">Lesson 2</a></li>
-        <li><a href="./fetch/index.html">Lesson 3</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <div class="container">
-      <h2 class="title">Lesson 2</h2>
-      <h3 class="subtitle">
-        Ball control
-      </h3>
-      <p>
-        En esta lección se aprende a controlar una pelota que se mueve de izquierda a derecha y se puede controlar con
-        los
-        botones de play, pause, reverse y reset.
-      </p>
-      <img src="https://i.pinimg.com/originals/c3/6a/f6/c36af6fd0dc110bc9bda810568357be6.png" alt="app" width="100%">
-
-      <a class="link" href="./ball_controll/index.html">See web page</a>
+<body class="text-white-50 bg-dark">
+  <!-- Start: Navbar Centered Brand (Dark) -->
+  <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark py-3">
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span
+          class="bs-icon-sm bs-icon-rounded text-success d-flex justify-content-center align-items-center me-2 bs-icon"><svg
+            xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16"
+            class="bi bi-view-stacked">
+            <path
+              d="M3 0h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3zm0 8h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1H3z">
+            </path>
+          </svg></span><span>erikh22l18</span></a><button data-bs-toggle="collapse" class="navbar-toggler"
+        data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="https://erikh22l18.github.io/index.es.html"><span
+                class="fw-bold text-success">&gt;&nbsp;</span>home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects"><span
+                class="fw-bold text-success">&gt;&nbsp;</span>works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-me"><span
+                class="fw-bold text-success">&gt;&nbsp;</span>about-me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts"><span
+                class="fw-bold text-success">&gt;&nbsp;</span>contacts</a></li>
+        </ul>
+        <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button
+            class="btn btn-primary" type="button">Button</button></div>
+      </div>
+      <div class="d-none d-md-block">
+        <div class="btn-group"><a class="btn btn-dark link-success border rounded-0 border-success" role="button"
+            href="/">Language</a><button
+            class="btn btn-success dropdown-toggle dropdown-toggle-split border rounded-0 border-success"
+            data-bs-toggle="dropdown" aria-expanded="false" type="button"></button>
+          <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="/">EN</a><a class="dropdown-item"
+              href="/index.es.html">ES</a></div>
+        </div>
+      </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <h2 class="title">Lesson 3</h2>
-      <h3 class="subtitle">
-        Fetch
-      </h3>
-      <p>
-        En esta lección se aprende a hacer una petición a un archivo <a class="link"
-          href="./fetch/data.json">data.json</a> y mostrar los datos en una tabla.
-      </p>
-      <img src="" alt="app" width="100%">
-
-      <a class="link" href="./fetch/index.html">See web page</a>
+  </nav><!-- End: Navbar Centered Brand (Dark) -->
+  <!-- Start: 1 Row 1 Column -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><span class="text-success">/&nbsp;</span>learning</h1>
+      </div>
     </div>
+  </div><!-- End: 1 Row 1 Column -->
+  <!-- Start: 2 Rows 1+1 Columns -->
+  <div class="container pt-3 pb-3">
+    <div class="row d-lg-flex align-items-lg-center">
+      <div class="col-md-12 col-lg-10 col-xl-12">
+        <h2 class="text-white"><span class="text-success">#</span>&nbsp;apps</h2>
+      </div>
+    </div>
+    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <div class="col-lg-4 text-start d-flex">
+        <div class="card bg-dark bg-gradient border-success"><img class="card-img-top w-100 d-block fit-cover"
+            style="height: 200px;" src="/assets/img/Figma Mockup.png">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0">Sem 01</p>
+            <h4 class="card-title">
+              Figma Design - Mockup
+            </h4>
+            <p class="card-text">
+              En la primera sesión del curso de desarrollo web, se llevó a cabo la actividad de crear un mockup de un
+              portafolio web
+              utilizando la herramienta Figma. Un mockup es una representación visual estática de cómo se verá un sitio
+              web antes de
+              comenzar a codificarlo.
+            </p>
+            <a href="./portfolio/index.html" class="btn btn-outline-success"><span>&gt; View more</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-start d-flex">
+        <div class="card bg-dark bg-gradient border-success"><img class="card-img-top w-100 d-block fit-cover"
+            style="height: 200px;" src="/assets/img/Blog Demo.png">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0">Sem 02</p>
+            <h4 class="card-title">Web </h4>
+            <p class="card-text">
+              En esta sesión del curso de desarrollo web, se trabajó en la recreación de un blog comercial utilizando
+              Bootstrap
+              y otras tecnologías web.
+            </p>
+            <a href="./blog/index.html" class="btn btn-outline-success"><span>&gt; View more</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-start d-flex">
+        <div class="card bg-dark bg-gradient border-success"><img class="card-img-top w-100 d-block fit-cover"
+            style="height: 200px;" src="https://i.pinimg.com/originals/c3/6a/f6/c36af6fd0dc110bc9bda810568357be6.png">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0">Sem3</p>
+            <h4 class="card-title">Intro JS</h4>
+            <p class="card-text">
+              En la siguiente sección del curso de desarrollo web, los participantes trabajaron en el desarrollo de una
+              aplicación
+              interactiva que consistía en una animación de una pelota que se movía de izquierda a derecha y que podía
+              ser controlada
+              por el usuario.
+            </p>
+            <a href="./ball_controll/index.html" class="btn btn-outline-success"><span>&gt; View more</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End: 2 Rows 1+1 Columns -->
+
+  <!-- Start: 2 Rows 1+1 Columns -->
+  <div class="container pt-3 pb-3">
+
+    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <div class="col-lg-4 text-start d-flex">
+        <div class="card bg-dark bg-gradient border-success"><img class="card-img-top w-100 d-block fit-cover"
+            style="height: 200px;" src="/assets/img/Fetch.png">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0">Sem 04</p>
+            <h4 class="card-title">
+              Fetch and Ajax
+            </h4>
+            <p class="card-text">
+              En la siguiente sección del curso de desarrollo web, se abordaron los conceptos y técnicas relacionadas
+              con AJAX y
+              Fetch, dos tecnologías fundamentales para realizar solicitudes asíncronas en aplicaciones web.
+
+            </p>
+            <a href="./fetch/index.html" class="btn btn-outline-success"><span>&gt; View more</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-start d-flex">
+        <div class="card bg-dark bg-gradient border-success"><img class="card-img-top w-100 d-block fit-cover"
+            style="height: 200px;" src="/assets/img/React_logo_wordmark.png">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0">Sem 05</p>
+            <h4 class="card-title">Intro React</h4>
+            <p class="card-text">
+              En la siguiente sesión del curso, se introdujo el framework React, una biblioteca de JavaScript
+              ampliamente utilizada
+              para construir interfaces de usuario interactivas y de una sola página (SPA).
+            </p>
+            <a href="./react/index.html" class="btn btn-outline-success"><span>&gt; View more</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-start d-flex">
+        <div class="card bg-dark bg-gradient border-success"><img class="card-img-top w-100 d-block fit-cover"
+            style="height: 200px;" src="/assets/img/React_logo_wordmark.png">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0">Sem 06</p>
+            <h4 class="card-title">Aplicaciones de React</h4>
+            <p class="card-text">
+              En la siguiente sesión, aplicamos los conocimientos de React a nuestras propias aplicaciones. Comencé
+              configurando un
+              nuevo proyecto de React utilizando Create React App. Luego, comencé a diseñar y crear componentes
+              personalizados para mi
+              aplicación.
+            </p>
+            <a href="./react_app/index.html" class="btn btn-outline-success"><span>&gt; View more</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End: 2 Rows 1+1 Columns -->
 
 </body>
 

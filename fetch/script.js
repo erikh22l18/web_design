@@ -7,6 +7,7 @@ submit_btn.addEventListener('click', async () => {
 
   fetch('./data.json')
     .then((res) => {
+      console.log(res);
       if (!res.ok) {
         alert('HTTP error, status = ' + res.status)
         throw new Error('HTTP error, status = ' + res.status)
